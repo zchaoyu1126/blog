@@ -1,1 +1,1 @@
-mv ./CNAME ./public/CNAME
+cp ./CNAME ./public/CNAME

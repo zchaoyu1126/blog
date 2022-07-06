@@ -24,6 +24,9 @@ jobs:
       - name: Forbid Jekyll
         run: touch ./public/.nojekyll
         
+      - name: CNAME
+        run: ./move.sh
+        
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v2.5.1
         env:

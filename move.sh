@@ -1,0 +1,1 @@
+mv CNAME ./public/CNAME

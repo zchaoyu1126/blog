@@ -3,6 +3,7 @@ title: "第一章 概述"
 date: 2022-07-10T23:11:04+08:00
 draft: false
 categories: ["C++"]
+slug: Cpp-ch1
 ---
 
 ## **第一章 概述**

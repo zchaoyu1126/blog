@@ -922,25 +922,32 @@ enableEmoji = true
         title = "GitHub"
       [[languages.zh-cn.menu.main]]
         parent = "documentation"
+        pre = "<i class='fa fa-asterisk' aria-hidden='true'></i>"
+        name = "C++"
+        identifier = "cpp"
+        url = "/documentation/cpp/"
+        weight = 1
+      [[languages.zh-cn.menu.main]]
+        parent = "documentation"
         pre = "<i class='fa fa-book' aria-hidden='true'></i>"
         name = "Golang"
         identifier = "golang"
         url = "/documentation/golang/"
-        weight = 1
+        weight = 2
       [[languages.zh-cn.menu.main]]
         parent = "documentation"
         pre = "<i class='fa fa-laptop' aria-hidden='true'></i>"
         name = "计算机基础"
         identifier = "csbase"
         url = "/documentation/csbase/"
-        weight = 2
+        weight = 3
       [[languages.zh-cn.menu.main]]
         parent = "documentation"
         pre = "<i class='fa fa-bookmark' aria-hidden='true'></i>"
         name = "数据结构与算法"
         identifier = "algorithm"
         url = "/documentation/algorithm/"
-        weight = 3
+        weight = 4
     [languages.zh-cn.params]
       [languages.zh-cn.params.search]
         enable = false
